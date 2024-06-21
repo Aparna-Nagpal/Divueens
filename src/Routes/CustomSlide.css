@@ -1,0 +1,40 @@
+.custom-slide {
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+  }
+  
+  .slide-content {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    width: 80%;
+  }
+  
+  
+  .slide-image {
+    max-width: 45%;
+  }
+  .slide-text-content{
+    width: 30%;
+
+  }
+  
+  .slide-text {
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+  }
+  
+  .slide-button {
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+  }
+  
+  .bold-text{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+  }

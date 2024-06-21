@@ -1,0 +1,25 @@
+
+.sale-header {
+  background-color: #7c85d2;
+  display: flex;
+  justify-content: center; 
+}
+
+.sale-text {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0 2rem; 
+  white-space: nowrap; 
+  overflow: hidden; 
+}
+
+.sale-icon {
+  margin-right: 0.5rem; 
+  color: initial; 
+}
+
+@media (max-width: 600px) {
+  .sale-text {
+    font-size: 18px; 
+  }
+}
